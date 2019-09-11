@@ -8,7 +8,7 @@ function App() {
 	};
 	return (
 		<div className="App">
-			<input id="input" type="text" placeholder="input" onChange={inputChangeHandler} />
+			<input id="input" type="text" placeholder="input" textLength={textLength} onChange={inputChangeHandler} />
 		</div>
 	);
 }
